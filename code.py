@@ -1,4 +1,9 @@
+def fun(i):
+    if i%2==0:
+        return i
+
+
 a=int(input("enter the number"))
 print(a**2)
 for i in range(a**2):
-    print(i)
+    print(fun(i))
